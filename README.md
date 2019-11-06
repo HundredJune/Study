@@ -242,3 +242,9 @@ JAVA
     - 어떤 노드의 색깔이 red라면 두 개의 children의 색깔은 모두 balck이다.
     - 각 노드에 대해 노드로부터 descendant leaves 까지의 단순 경로는 모두 같은 수의 black nodes 들을 포함하고 있다.
     - BST의 삽입과 삭제 연산 과정에서 문제점을 해결하고 크기 비율이 2미만으로 유지된다.  
+    
+  - DFS는 미로찾기 / BFS 최단 경로
+  
+  - 최소 비용 신장 트리(Kruskal Algorithm & Prim Algorithm)
+    - Kruskal : 전체에서 가장 작은 것을 선택하고 써클이 생기는지 안생기는지 확인
+    - Prim : 한개의 Vertex에서 가장 최선의 선택을 통하여 찾아가는 알고리즘
